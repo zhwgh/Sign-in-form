@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow',
+    Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, Courier,
+    monospace, Helvetica, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(226, 232, 235, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 50px;
+}
+
+a {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 5px;
+  padding: 5px;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #9848dd;
+}
+.input {
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  border: 2.5px solid #8b1874;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  transition: 0.5s;
+}
+input:hover {
+  border: 2.5px solid #8b1874;
+}
+input[type='text']:focus {
+  border: 2.5px solid #6b348b;
+  background-color: #ecf0f1;
+}
+input[type='password']:focus {
+  border: 2.5px solid #6b348b;
+  background-color: #ecf0f1;
+}
+
+.forgot-pass {
+  padding: 20px;
+}
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  flex: 1 1 auto;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  /* background-color: #8b1874; */
+  color: #ffffff;
+  border-radius: 50px;
+  width: 50%;
+  height: 50px;
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-align: center;
+  background: linear-gradient(to right, #b71375 0%, #8b1874 50%, #9a208c 100%);
+}
+.btn:hover {
+  background: linear-gradient(90deg, #b33771, #b53471, #833471, #6f1e51);
+  background-size: 400%;
+  color: #ffffff;
+}
+
+.icon {
+  width: 30px;
+}
